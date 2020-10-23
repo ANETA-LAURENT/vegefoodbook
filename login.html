@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <title ">VEGE E-book-about</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="font-mono bg-gray-100">
+  <!-- Container -->
+  <div class="container py-5 mx-auto overflow-hidden">
+    <div class="flex">
+    <svg class="w-4 h-4 mt-1 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path></svg>
+    <a href="index.html" class="text-gray-900">Returner à l'acceuil</a>
+</div>
+    <div class="flex justify-center px-6 my-12">
+      <!-- Row -->
+      <div class="w-full xl:w-3/4 lg:w-11/12 flex shadow-xl ">
+        <!-- Col image  -->
+        <div
+          class="w-full hidden md:block md:w-1/2 bg-cover rounded-l-lg h-auto "
+          style="
+            background-image: url('img/login.jpg');
+          "
+        ></div>
+        <!-- Col form -->
+        <div class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">
+          <h3 class="pt-4 text-2xl text-center text-primary">Bienvenue!</h3>
+          <form class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
+            <div class="mb-4">
+              <label
+                class="block mb-2 text-sm font-bold text-gray-700"
+                for="username"
+              >
+              Nom d'utilisateur
+              </label>
+              <input
+                class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                id="username"
+                type="text"
+                placeholder="Nom d'utilisateur"
+              />
+            </div>
+            <div class="mb-4">
+              <label
+                class="block mb-2 text-sm font-bold text-gray-700"
+                for="password"
+              >
+                Mot de passe
+              </label>
+              <input
+                class="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                id="password"
+                type="password"
+                placeholder="mot de passe"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                class="mr-2 leading-tight"
+                type="checkbox"
+                id="checkbox_id"
+              />
+              <label class="text-sm" for="checkbox_id"> Rester connecté </label>
+            </div>
+            <div class="mb-6 text-center">
+              <button
+                class="w-full px-4 py-2 font-bold bg-rose secondary-100 text-secondary-200 btn hover:shadow-inner transform hover:scale-110 hover:bg-opacity-75 transition ease-out duration-200 "
+                type="button"
+              >
+                Se connecter
+              </button>
+            </div>
+            <hr class="mb-6 border-t" />
+            <div class="text-center">
+              <a
+                class="inline-block text-sm text-primary align-baseline hover:text-blue-800"
+                href="register.html"
+              >
+                Créer un compte!
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
+
